@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+
+.cont {
+    background-color: #605DEC;
+    color: white;
+}
+
+.btn1 {
+    background-color: #605DEC;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    height: 40px;
+
+}
+
+.text1 {
+    font-weight: 300;
+    color: rgb(101, 88, 253);
+    color: radial-gradient(circle, rgba(98, 84, 245, 0.858) 55%, rgba(80, 146, 253, 1) 35%, rgb(69, 131, 230) 100%);
+}
+.btnsearch{
+   
+    background-color: #605DEC;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 80px;
+    height: 35px;
+
+}
+.kenyaCard{
+    height: 200px;
+}
+
+.activityRow{
+    margin-top: 290px;
+}
+@media (orientation: portrait){
+    .dropdownClass{
+        margin-top: 100px;
+    }
+    .btnsearch{
+        margin-top: 30px;
+    }
+}
