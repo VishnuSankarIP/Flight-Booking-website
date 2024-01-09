@@ -37,11 +37,23 @@
 .activityRow{
     margin-top: 290px;
 }
+.explorebtn{
+    background-color: #605DEC;
+   
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 150px;
+    height: 35px;
+}
 @media (orientation: portrait){
     .dropdownClass{
         margin-top: 100px;
     }
     .btnsearch{
         margin-top: 30px;
+    }
+    .findSubHead{
+        margin-left: 40px;
     }
 }
