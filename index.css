@@ -46,6 +46,24 @@
     width: 150px;
     height: 35px;
 }
+.createAccBtn{
+    background-color: #605DEC;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 200px;
+    height: 35px;
+
+}
+.Slink{
+    width: 400px;
+}
+.divSpace{
+    height: 100px;
+}
+body{
+    overflow-x: hidden;
+}
 @media (orientation: portrait){
     .dropdownClass{
         margin-top: 100px;
@@ -55,5 +73,8 @@
     }
     .findSubHead{
         margin-left: 40px;
+    }
+    .cc{
+        padding-top: 10px;
     }
 }

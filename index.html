@@ -41,15 +41,59 @@
                             <a class="nav-link" href="#">Hotels</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Packages</a>
+                            <a class="nav-link" href="bookingPage.html">Packages</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sign in</a>
                         </li>
                         <div class="btnclass pe-5">
-                            <button class="btn1 ">
+                            <button class="btn1 " data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Sign up
                             </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title" id="exampleModalLabel">Sign up for Tripma</h4>
+
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Tripma is totally free to use. Sign up using your email address or phone
+                                                number below to get started.</p>
+                                            <form>
+                                                <input type="text" placeholder="Email or phone number"
+                                                    class="form-control"><br>
+                                                <input type="text" placeholder="Password" class="form-control"><br>
+                                                <input type="checkbox" id="q1" name="w1"><label for="q1">&nbsp; I agree
+                                                    to the
+                                                    <span style="color: #605DEC;">terms and
+                                                        conditions</span></label><br>
+                                                <input type="checkbox" name="w1" id="q2"><label for="q2">&nbsp; Send me
+                                                    the
+                                                    latest deal alert</label><br>
+                                                <div class="CreateBtn mt-3" style="text-align: center;"><button
+                                                        class="createAccBtn">Create account</button></div>
+                                                <div class="linkTag" style="text-align: center;">
+
+                                                    <button class="Slink mt-2" style="border: #605DEC 1px solid;"><img
+                                                            src="./images/google.png">Continue with Google</button><br>
+                                                    <button class="Slink mt-2" style="border: #605DEC 1px solid;"><img
+                                                            src="./images/icon.png">Continue with Apple</button><br>
+                                                    <button class="Slink mt-2" style="border: #605DEC 1px solid;"><img
+                                                            src="./images/facebook1.png">Continue with Facebook</button>
+                                                </div>
+
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
 
@@ -67,7 +111,7 @@
             </div>
         </div>
         <div class=" row mt-lg-5" style="text-align: center;">
-            <div class=" col-lg-12">
+            <div class=" col-lg-12" >
 
                 <div class="dropdownClass btn-group">
                     <button class="btn2 " type="button" data-bs-toggle="dropdown" aria-expanded="false"><i
@@ -84,7 +128,7 @@
                     </ul>
                 </div>
                 <div class="dropdownClass btn-group">
-                    <button class="btn2 " type="button" data-bs-toggle="dropdown" aria-expanded="false" ><i
+                    <button class="btn2 " type="button" data-bs-toggle="dropdown" aria-expanded="false"><i
                             class="fa-solid fa-plane-arrival"></i>
                         where to?
                     </button>
@@ -115,11 +159,12 @@
                         1 adult
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Adults - 1 +</a></li>
-                        <li><a class="dropdown-item" href="#">Minor - 0 +</a></li>
+                        <li><a class="dropdown-item" href="#">Adults <span style="color: #605DEC;">-</span> 1<span style="color: #605DEC;"> +</span></a></li>
+                        <li><a class="dropdown-item" href="#">Minor <span style="color: #605DEC;">- </span>0 <span style="color: #605DEC;">+</span></a></li>
 
                     </ul>
                 </div>
+
                 <button class="btnsearch ">
                     Search
                 </button>
@@ -129,7 +174,8 @@
         <div class="activityRow">
             <div class=" row">
                 <div class="col-lg-12">
-                    <h5 class="findSubHead ps-lg-5">Find your next adventure with these<span style="color:#605DEC;"> flight
+                    <h5 class="findSubHead ps-lg-5">Find your next adventure with these<span style="color:#605DEC;">
+                            flight
                             deals</span>
                     </h5>
                 </div>
@@ -137,8 +183,8 @@
         </div>
         <div class="activityPlace ps-5 pe-5 mt-3">
             <div class="row ">
-                <div class="col-lg-4">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4">
+                    <div class="card h-100">
                         <img src="./images/pic1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">The Bund,<span style="color:#605DEC;">Shanghai</span></h6>
@@ -147,8 +193,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4">
+                    <div class=" card h-100">
                         <img src="./images/pic4.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Sydney Opera House,<span style="color:#605DEC;">Sydney</span></h6>
@@ -157,8 +203,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4">
+                    <div class=" card h-100">
                         <img src="./images/pic2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Kodaiiji Temple,<span style="color:#605DEC;">Kyoto</span></h6>
@@ -194,7 +240,7 @@
 
         <div class="activityRow2">
             <div class=" row">
-                <div class="col-lg-12">
+                <div class="cc col-lg-12">
                     <h5 class="findSubHead ps-lg-5 mt-lg-5" style="color: gray;">Explore unique <span
                             style="color:rgb(38, 193, 38);"> places to stay</span>
                     </h5>
@@ -203,8 +249,8 @@
         </div>
         <div class="activityPlace ps-5 pe-5 mt-3">
             <div class="row ">
-                <div class="col-lg-4">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4">
+                    <div class="card h-100">
                         <img src="./images/maldiv.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Stay among the atolls in
@@ -216,8 +262,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4">
+                    <div class="card h-100">
                         <img src="./images/morocco.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Experience the Ourika Valley in
@@ -229,8 +275,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4">
+                    <div class="card h-100">
                         <img src="./images/mangolio.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Live traditionally in
@@ -263,8 +309,8 @@
         </div>
         <div class="feedbackSection ps-5 pe-5 mt-3">
             <div class="row">
-                <div class="col-lg-4 ">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4 ">
+                    <div class="card h-100">
                         <div class="card-body">
                             <h6 class="card-title">Yifei Chen</h6>
                             <h6 class="card-subtitle mb-2 text-body-secondary">Seoul, South Korea | April 2019</h6>
@@ -283,8 +329,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4 ">
+                    <div class="card h-100">
                         <div class="card-body">
                             <h6 class="card-title">Kaori Yamaguchi</h6>
                             <h6 class="card-subtitle mb-2 text-body-secondary">Honolulu, Hawaii | February 2017</h6>
@@ -303,8 +349,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ">
-                    <div class="card h-100" >
+                <div class="cc col-lg-4 ">
+                    <div class="card h-100">
                         <div class="card-body">
                             <h6 class="card-title">Anthony Lewis</h6>
                             <h6 class="card-subtitle mb-2 text-body-secondary">Berlin, Germany | April 2019</h6>
@@ -336,7 +382,7 @@
     <footer>
         <div class="foot1 mt-lg-5 ms-5">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-1">
                     <h2 style="color:  #605DEC;font-family: 'Kanit', sans-serif;font-size: 25px;">Tripma</h2>
                 </div>
                 <div class="col-lg-2">
@@ -374,7 +420,7 @@
                     <p style="font-size: 12px;color:  grey;">Tripma for iOS</p>
                     <p style="font-size: 12px;color:  grey;">Mobile site</p>
                     <img src="./images/app store.png">
-                    <img src="./images/google play.png" class="mt-3">
+                    <img src="./images/google play.png">
 
 
 
@@ -389,6 +435,9 @@
         </div>
 
     </footer>
+    <div class="divSpace">
+
+    </div>
 </body>
 
 </html>
