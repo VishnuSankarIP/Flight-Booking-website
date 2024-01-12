@@ -56,7 +56,7 @@
 
 }
 .Slink{
-    width: 400px;
+    width: 100%;
 }
 .divSpace{
     height: 100px;
@@ -76,5 +76,11 @@ body{
     }
     .cc{
         padding-top: 10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .mapImage{
+       display: hidden;
     }
 }

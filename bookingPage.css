@@ -42,3 +42,29 @@
     height: 35px;
    
 }
+@media (orientation: portrait){
+    .graphDiv{
+        display: none;
+    }
+    .ShowbtnDiv{
+        text-align: center;
+    }
+    .btnsearch{
+        margin-top: 5px;
+        
+
+    }
+    .cc{
+        padding-top: 10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .mapImage{
+        display: none;
+    }
+    .findSubHead{
+        margin-left: 10%;
+    }
+  
+}
