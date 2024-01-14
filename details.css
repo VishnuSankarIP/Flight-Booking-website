@@ -34,18 +34,19 @@
     height: 100px;
 }
 .ShowBtn{
-    background-color:white;
-    color:  #605DEC;
+    background-color:#605DEC;
+    color: white;
     border-radius: 10px;
-    border-color: #605DEC;
+    border: none;
     width: 200px;
-    height: 35px;
+    height: 40px;
    
 }
+body{
+    overflow-x: hidden;
+}
 @media (orientation: portrait){
-    .graphDiv{
-        display: none;
-    }
+  
     .ShowbtnDiv{
         text-align: center;
     }
@@ -73,9 +74,7 @@
     .mapImage{
         display: none;
     }
-    .graphDiv{
-        display: none;
-    }
+   
     .spacing{
         padding: 10px;
     }

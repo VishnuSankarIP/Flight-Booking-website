@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+
+.cont {
+    background-color: #605DEC;
+    color: white;
+}
+
+.btn1 {
+    background-color: #605DEC;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    height: 40px;
+
+}
+
+.text1 {
+    font-weight: 300;
+    color: rgb(101, 88, 253);
+    color: radial-gradient(circle, rgba(98, 84, 245, 0.858) 55%, rgba(80, 146, 253, 1) 35%, rgb(69, 131, 230) 100%);
+}
 .btnsearch{
    
     background-color: #605DEC;
@@ -10,13 +30,21 @@
     height: 35px;
 
 }
-.btn1 {
+.kenyaCard{
+    height: 200px;
+}
+
+.activityRow{
+    margin-top: 290px;
+}
+.explorebtn{
     background-color: #605DEC;
+   
     color: white;
     border-radius: 2px;
     border: none;
-    height: 40px;
-
+    width: 150px;
+    height: 35px;
 }
 .createAccBtn{
     background-color: #605DEC;
@@ -28,31 +56,23 @@
 
 }
 .Slink{
-    width: 400px;
+    width: 100%;
 }
 .divSpace{
     height: 100px;
 }
-.ShowBtn{
-    background-color:white;
-    color:  #605DEC;
-    border-radius: 10px;
-    border-color: #605DEC;
-    width: 200px;
-    height: 35px;
-   
+body{
+    overflow-x: hidden;
 }
 @media (orientation: portrait){
-    .graphDiv{
-        display: none;
-    }
-    .ShowbtnDiv{
-        text-align: center;
+    .dropdownClass{
+        margin-top: 100px;
     }
     .btnsearch{
-        margin-top: 5px;
-        
-
+        margin-top: 30px;
+    }
+    .findSubHead{
+        margin-left: 40px;
     }
     .cc{
         padding-top: 10px;
@@ -61,22 +81,6 @@
         overflow-x: hidden;
     }
     .mapImage{
-        display: none;
-    }
-    .findSubHead{
-        margin-left: 10%;
-    }
-  
-}
-@media(max-width:600px)
-{
-    .mapImage{
-        display: none;
-    }
-    .graphDiv{
-        display: none;
-    }
-    .spacing{
-        padding: 10px;
+       display: hidden;
     }
 }

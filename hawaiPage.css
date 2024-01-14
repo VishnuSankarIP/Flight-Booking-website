@@ -42,10 +42,11 @@
     height: 35px;
    
 }
+body{
+    overflow-x: hidden;
+}
 @media (orientation: portrait){
-    .graphDiv{
-        display: none;
-    }
+  
     .ShowbtnDiv{
         text-align: center;
     }
@@ -73,9 +74,7 @@
     .mapImage{
         display: none;
     }
-    .graphDiv{
-        display: none;
-    }
+   
     .spacing{
         padding: 10px;
     }
