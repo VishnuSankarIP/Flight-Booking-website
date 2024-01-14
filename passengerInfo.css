@@ -64,6 +64,13 @@
 body{
     overflow-x: hidden;
 }
+.saveBtn{
+    background-color: white;
+    color: #605DEC;
+    border-radius: 2px;
+    border-color: #605DEC;
+    
+}
 @media (orientation: portrait){
     .dropdownClass{
         margin-top: 100px;
@@ -80,7 +87,11 @@ body{
     body{
         overflow-x: hidden;
     }
-    .mapImage{
-       display: hidden;
+    .passInfoDiv{
+        padding-left: 20px;
     }
+    .detailsDiv{
+        padding-left: 20px;
+    }
+   
 }
